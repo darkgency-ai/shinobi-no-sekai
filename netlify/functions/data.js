@@ -14,7 +14,7 @@ exports.handler = async (event) => {
 
   try {
     connectLambda(event);
-    const store = getStore({ name: 'shinobi-no-sekai', consistency: 'strong' });
+    const store = getStore({ name: 'shinobi-no-sekai' });
 
     if (event.httpMethod === 'GET') {
       const data = await store.get('state', { type: 'json' });
