@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shinobi no Sekai</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+:root{--gold:#c9a84c;--gold-l:#e8c96a;--bg:#0a0a0f;--sur:#111118;--sur2:#1a1a24;--bor:#2a2a3a;--txt:#e8e8f0;--mut:#6b6b88;--vc:#c9a84c;--vc2:#8b6914;--vbg:rgba(201,168,76,.08);--vbd:rgba(201,168,76,.3)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;overflow-x:hidden}
+.scr{display:none;min-height:100vh;flex-direction:column}
+.scr.on{display:flex}
+#s-home{align-items:center;justify-content:center;
+  background:radial-gradient(ellipse at 20% 50%,rgba(230,57,70,.07),transparent 50%),
+             radial-gradient(ellipse at 80% 20%,rgba(123,47,190,.07),transparent 50%),
+             radial-gradient(ellipse at 60% 80%,rgba(0,119,182,.07),transparent 50%),#0a0a0f}
+.particles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.par{position:absolute;border-radius:50%;opacity:.12;animation:drift linear infinite}
+@keyframes drift{0%{transform:translateY(100vh);opacity:0}10%{opacity:.12}90%{opacity:.12}100%{transform:translateY(-120px);opacity:0}}
+.home-wrap{position:relative;z-index:2;text-align:center;padding:2rem;max-width:960px;width:100%}
+.kanji-big{font-size:5rem;display:block;filter:drop-shadow(0 0 28px rgba(201,168,76,.5));animation:float 4s ease-in-out infinite;margin-bottom:1.5rem}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.h-title{font-family:'Cinzel',serif;font-size:2.8rem;font-weight:900;color:var(--gold);text-shadow:0 0 40px rgba(201,168,76,.4);letter-spacing:.08em;margin-bottom:.4rem}
+.h-title span{color:#fff}
+.h-sub{font-size:.88rem;color:var(--mut);letter-spacing:.24em;text-transform:uppercase;margin-bottom:3rem}
+.h-cta{font-family:'Cinzel',serif;font-size:1rem;color:rgba(255,255,255,.55);margin-bottom:2rem}
+.vcards{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:2.75rem}
+.vcard{background:rgba(17,17,24,.8);border:1px solid rgba(255,255,255,.07);border-radius:18px;
+  padding:2.25rem 1.75rem;width:220px;cursor:pointer;transition:all .35s;backdrop-filter:blur(16px);position:relative;overflow:hidden}
+.vcard::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .35s;border-radius:18px}
+.vcard.ko::before{background:radial-gradient(circle at top,rgba(230,57,70,.22),transparent 65%)}
+.vcard.am::before{background:radial-gradient(circle at top,rgba(123,47,190,.22),transparent 65%)}
+.vcard.ki::before{background:radial-gradient(circle at top,rgba(0,119,182,.22),transparent 65%)}
+.vcard:hover::before{opacity:1}
+.vcard:hover{transform:translateY(-8px) scale(1.02)}
+.vcard.ko:hover{border-color:rgba(230,57,70,.6);box-shadow:0 24px 64px rgba(230,57,70,.2)}
+.vcard.am:hover{border-color:rgba(123,47,190,.6);box-shadow:0 24px 64px rgba(123,47,190,.2)}
+.vcard.ki:hover{border-color:rgba(0,119,182,.6);box-shadow:0 24px 64px rgba(0,119,182,.2)}
+.vs{font-size:3rem;margin-bottom:1rem;display:block;transition:transform .3s}
+.vcard:hover .vs{transform:scale(1.15)}
+.vn{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;margin-bottom:.5rem}
+.vcard.ko .vn{color:#e63946}.vcard.am .vn{color:#7b2fbe}.vcard.ki .vn{color:#0077b6}
+.vd{font-size:.73rem;color:var(--mut);line-height:1.65}
+.ve{display:block;margin-top:1rem;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;opacity:0;transition:opacity .3s}
+.vcard:hover .ve{opacity:1}
+.vcard.ko .ve{color:#e63946}.vcard.am .ve{color:#7b2fbe}.vcard.ki .ve{color:#0077b6}
+.h-login{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.35);color:var(--gold);
+  padding:.72rem 2.2rem;border-radius:999px;font-size:.88rem;cursor:pointer;transition:all .2s;font-family:'Inter',sans-serif}
+.h-login:hover{background:rgba(201,168,76,.18);transform:translateY(-2px)}
+
+/* AUTH */
+#s-auth{align-items:center;justify-content:center;background:radial-gradient(ellipse at center,rgba(201,168,76,.04),#0a0a0f 70%)}
+.auth-card{background:rgba(17,17,24,.97);border:1px solid var(--bor);border-radius:20px;padding:2.5rem;
+  width:90%;max-width:420px;text-align:center;box-shadow:0 32px 80px rgba(0,0,0,.6);position:relative}
+.auth-k{font-size:2.8rem;margin-bottom:.7rem;filter:drop-shadow(0 0 16px rgba(201,168,76,.4))}
+.auth-t{font-family:'Cinzel',serif;font-size:1.35rem;color:var(--gold);margin-bottom:.3rem}
+.auth-s{font-size:.82rem;color:var(--mut);margin-bottom:1.75rem}
+.disc-btn{display:flex;align-items:center;justify-content:center;gap:.75rem;width:100%;
+  padding:.9rem 1.5rem;background:#5865F2;border:none;border-radius:10px;color:#fff;
+  font-size:.93rem;font-weight:600;cursor:pointer;transition:all .2s;font-family:'Inter',sans-serif;margin-bottom:1.25rem}
+.disc-btn:hover{background:#4752c4;transform:translateY(-2px);box-shadow:0 8px 24px rgba(88,101,242,.4)}
+.divider{display:flex;align-items:center;gap:1rem;color:var(--mut);font-size:.76rem;margin-bottom:1.25rem}
+.divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--bor)}
+.hint{background:rgba(201,168,76,.07);border:1px solid rgba(201,168,76,.2);border-radius:8px;
+  padding:.6rem .85rem;font-size:.72rem;color:var(--mut);margin-bottom:1rem;text-align:left;line-height:1.7}
+.hint strong{color:var(--gold)}
+.dfields{display:flex;flex-direction:column;gap:.7rem;margin-bottom:1rem}
+.ainput{width:100%;background:var(--bg);border:1px solid var(--bor);border-radius:8px;
+  padding:.65rem 1rem;color:var(--txt);font-size:.87rem;font-family:'Inter',sans-serif;outline:none;transition:border-color .15s}
+.ainput:focus{border-color:var(--gold)}
+.ainput::placeholder{color:var(--mut)}
+.asel{width:100%;background:var(--bg);border:1px solid var(--bor);border-radius:8px;
+  padding:.65rem 1rem;color:var(--txt);font-size:.87rem;font-family:'Inter',sans-serif;outline:none}
+.asel option{background:var(--sur)}
+.asub{width:100%;padding:.78rem;background:var(--gold);color:#0a0a0f;border:none;border-radius:8px;
+  font-size:.9rem;font-weight:700;cursor:pointer;font-family:'Cinzel',serif;letter-spacing:.05em;margin-bottom:.75rem;transition:all .2s}
+.asub:hover{background:var(--gold-l)}
+.atog{font-size:.79rem;color:var(--mut)}
+.atog a{color:var(--gold);cursor:pointer}
+.atog a:hover{text-decoration:underline}
+.a-back{position:absolute;top:1.25rem;left:1.25rem;background:none;border:none;color:var(--mut);cursor:pointer;font-size:.82rem;font-family:'Inter',sans-serif}
+.a-back:hover{color:var(--txt)}
+
+/* VILLAGE */
+.vhdr{padding:0 1.75rem;height:64px;display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--bor);position:sticky;top:0;z-index:50;background:rgba(10,10,15,.96);backdrop-filter:blur(12px)}
+.vhl{display:flex;align-items:center;gap:1rem}
+.vbadge{display:flex;align-items:center;gap:.5rem;font-family:'Cinzel',serif;font-size:.95rem;font-weight:700}
+.vsep{color:var(--bor);font-size:1.2rem}
+.site-sm{font-family:'Cinzel',serif;font-size:.74rem;color:var(--mut);letter-spacing:.1em}
+.vhr{display:flex;align-items:center;gap:.65rem}
+.uchip{display:flex;align-items:center;gap:.45rem;background:var(--sur2);border:1px solid var(--bor);padding:.33rem .85rem;border-radius:999px;font-size:.81rem}
+.odot{width:7px;height:7px;background:#22c55e;border-radius:50%}
+.rbdg{font-size:.67rem;font-weight:600;padding:.15rem .48rem;border-radius:999px;text-transform:uppercase;margin-left:.3rem}
+.rb-a{background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3)}
+.rb-p{background:rgba(107,107,136,.1);color:var(--mut);border:1px solid var(--bor)}
+.bsm{padding:.33rem .82rem;border-radius:7px;font-size:.77rem;cursor:pointer;border:1px solid var(--bor);background:transparent;color:var(--mut);transition:all .15s;font-family:'Inter',sans-serif}
+.bsm:hover{color:var(--txt);border-color:var(--mut)}
+.vbody{display:grid;grid-template-columns:252px 1fr;min-height:calc(100vh - 64px)}
+.vside{border-right:1px solid var(--bor);padding:1.25rem .9rem;position:sticky;top:64px;height:calc(100vh - 64px);overflow-y:auto;background:rgba(10,10,15,.4)}
+.vsym{text-align:center;font-size:7rem;line-height:1;opacity:.05;margin-bottom:1.25rem;user-select:none}
+.vnsec{font-size:.65rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);padding:.8rem .5rem .3rem;display:block}
+.vni{display:flex;align-items:center;gap:.55rem;padding:.52rem .72rem;border-radius:8px;cursor:pointer;
+  font-size:.83rem;color:var(--mut);transition:all .15s;border:none;background:none;width:100%;text-align:left;font-family:'Inter',sans-serif}
+.vni:hover{background:var(--sur2);color:var(--txt)}
+.vni.on{background:var(--vbg);color:var(--vc)}
+.ico{width:18px;text-align:center;flex-shrink:0}
+.nbdg{margin-left:auto;font-size:.67rem;font-weight:600;padding:.12rem .45rem;border-radius:999px;background:var(--vbg);color:var(--vc);border:1px solid var(--vbd)}
+.vmain{padding:2rem;overflow-y:auto}
+.ph{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.75rem;flex-wrap:wrap;gap:1rem}
+.pt{font-family:'Cinzel',serif;font-size:1.45rem;font-weight:700}
+.ps{font-size:.81rem;color:var(--mut);margin-top:.2rem}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1rem;margin-bottom:2rem}
+.scard{background:var(--sur);border:1px solid var(--bor);border-radius:12px;padding:1.2rem;position:relative;overflow:hidden}
+.scard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--sa,var(--vc))}
+.snum{font-family:'Cinzel',serif;font-size:1.9rem;font-weight:700;line-height:1;margin-bottom:.2rem}
+.slbl{font-size:.74rem;color:var(--mut)}
+.tlist{display:flex;flex-direction:column;gap:.65rem}
+.tcard{background:var(--sur);border:1px solid var(--bor);border-radius:12px;padding:1rem 1.2rem;
+  display:grid;grid-template-columns:10px 1fr auto auto;align-items:center;gap:.9rem;cursor:pointer;transition:border-color .15s}
+.tcard:hover{border-color:var(--vc)}
+.tdot{width:10px;height:10px;border-radius:50%}
+.ttl2{font-size:.89rem;font-weight:500;margin-bottom:.17rem}
+.tmet{font-size:.72rem;color:var(--mut)}
+.sbdg{font-size:.69rem;font-weight:600;padding:.2rem .58rem;border-radius:999px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+.sp{background:rgba(234,179,8,.12);color:#eab308;border:1px solid rgba(234,179,8,.25)}
+.sa{background:rgba(34,197,94,.12);color:#22c55e;border:1px solid rgba(34,197,94,.25)}
+.sr{background:rgba(239,68,68,.12);color:#ef4444;border:1px solid rgba(239,68,68,.25)}
+.tacts{display:flex;gap:.35rem}
+.btn{padding:.38rem .85rem;border-radius:7px;font-size:.76rem;font-weight:500;cursor:pointer;border:none;font-family:'Inter',sans-serif;transition:opacity .15s}
+.btn:hover{opacity:.82}
+.b-acc{background:rgba(34,197,94,.18);color:#22c55e;border:1px solid rgba(34,197,94,.35)}
+.b-ref{background:rgba(239,68,68,.18);color:#ef4444;border:1px solid rgba(239,68,68,.35)}
+.b-view{background:var(--sur2);color:var(--txt);border:1px solid var(--bor)}
+.b-pri{background:var(--vc);color:#0a0a0f;font-weight:700;padding:.52rem 1.25rem;border-radius:8px;font-size:.86rem;border:none;font-family:'Cinzel',serif;letter-spacing:.04em;cursor:pointer;transition:all .2s}
+.b-pri:hover{opacity:.88;transform:translateY(-1px)}
+.b-sec{background:var(--sur2);color:var(--txt);border:1px solid var(--bor);padding:.52rem 1.25rem;border-radius:8px;font-size:.86rem;cursor:pointer;font-family:'Inter',sans-serif}
+.b-sec:hover{border-color:var(--mut)}
+.fcard{background:var(--sur);border:1px solid var(--bor);border-radius:14px;padding:2rem;max-width:720px}
+.ftit{font-family:'Cinzel',serif;font-size:1.12rem;color:var(--vc);margin-bottom:.35rem}
+.fsub{font-size:.79rem;color:var(--mut);margin-bottom:1.6rem}
+.stpr{display:flex;align-items:center;margin-bottom:1.75rem}
+.stp{display:flex;align-items:center;gap:.42rem;font-size:.77rem;color:var(--mut)}
+.stpn{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;background:var(--sur2);border:1px solid var(--bor);color:var(--mut)}
+.stp.on .stpn{background:var(--vc);border-color:var(--vc);color:#0a0a0f}
+.stp.on{color:var(--txt)}
+.stp.dn .stpn{background:rgba(34,197,94,.15);border-color:#22c55e;color:#22c55e}
+.stpline{flex:1;height:1px;background:var(--bor);margin:0 .6rem}
+.fg{margin-bottom:1.15rem}
+.fl{display:block;font-size:.74rem;font-weight:500;color:var(--mut);margin-bottom:.33rem;text-transform:uppercase;letter-spacing:.06em}
+.op{font-size:.69rem;color:var(--mut);font-weight:400;text-transform:none;letter-spacing:0;margin-left:.28rem}
+.fi,.fs,.fta{width:100%;background:var(--bg);border:1px solid var(--bor);border-radius:8px;padding:.62rem .9rem;color:var(--txt);font-size:.86rem;font-family:'Inter',sans-serif;transition:border-color .15s;outline:none}
+.fi:focus,.fs:focus,.fta:focus{border-color:var(--vc)}
+.fta{resize:vertical;min-height:90px}
+.fs option{background:var(--sur)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.fsec{font-family:'Cinzel',serif;font-size:.87rem;color:var(--vc);margin:1.35rem 0 .82rem;padding-bottom:.4rem;border-bottom:1px solid var(--bor)}
+.facts{display:flex;gap:.7rem;margin-top:1.4rem;flex-wrap:wrap}
+.vtabs{display:flex;gap:.45rem;margin-bottom:1.4rem;flex-wrap:wrap}
+.vtab{display:flex;align-items:center;gap:.4rem;padding:.45rem 1rem;border-radius:8px;cursor:pointer;font-size:.83rem;font-weight:500;border:1px solid var(--bor);background:var(--sur);color:var(--mut);transition:all .15s}
+.vtab:hover{border-color:var(--mut);color:var(--txt)}
+.vtab.a-all{background:rgba(201,168,76,.1);border-color:var(--gold);color:var(--gold)}
+.vtab.a-ko{background:rgba(230,57,70,.1);border-color:#e63946;color:#e63946}
+.vtab.a-am{background:rgba(123,47,190,.1);border-color:#7b2fbe;color:#7b2fbe}
+.vtab.a-ki{background:rgba(0,119,182,.1);border-color:#0077b6;color:#0077b6}
+.mtbl{width:100%;border-collapse:collapse;background:var(--sur);border-radius:12px;overflow:hidden;border:1px solid var(--bor)}
+.mtbl th{background:var(--sur2);padding:.72rem 1rem;text-align:left;font-size:.72rem;font-weight:600;color:var(--mut);text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--bor)}
+.mtbl td{padding:.78rem 1rem;font-size:.84rem;border-bottom:1px solid rgba(42,42,58,.5)}
+.mtbl tr:last-child td{border-bottom:none}
+.mtbl tr:hover td{background:rgba(255,255,255,.02)}
+.vtg{font-size:.71rem;font-weight:500;padding:.17rem .5rem;border-radius:999px}
+.vt-ko{background:rgba(230,57,70,.1);color:#e63946}
+.vt-am{background:rgba(123,47,190,.1);color:#7b2fbe}
+.vt-ki{background:rgba(0,119,182,.1);color:#0077b6}
+.tbtn{padding:.25rem .6rem;border-radius:5px;font-size:.7rem;cursor:pointer;border:none;font-family:'Inter',sans-serif}
+.tbp{background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3)}
+.tbd{background:rgba(239,68,68,.1);color:#ef4444;border:1px solid rgba(239,68,68,.25)}
+.ostat{display:inline-flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:500}
+.ost-on{color:#22c55e}
+.ost-off{color:var(--mut)}
+.odot2{width:7px;height:7px;background:#22c55e;border-radius:50%;display:inline-block;box-shadow:0 0 6px #22c55e}
+.mbg{position:fixed;inset:0;background:rgba(0,0,0,.82);display:none;align-items:center;justify-content:center;z-index:200}
+.mbg.on{display:flex}
+.modal{background:var(--sur);border:1px solid var(--bor);border-radius:16px;padding:2rem;width:92%;max-width:600px;max-height:90vh;overflow-y:auto}
+.mhdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.2rem;padding-bottom:.72rem;border-bottom:1px solid var(--bor)}
+.mttl{font-family:'Cinzel',serif;font-size:1rem;color:var(--vc)}
+.xcls{background:none;border:none;color:var(--mut);font-size:1.3rem;cursor:pointer;line-height:1}
+.xcls:hover{color:var(--txt)}
+.msec{font-family:'Cinzel',serif;font-size:.8rem;color:var(--vc);margin:.95rem 0 .5rem;padding-bottom:.28rem;border-bottom:1px solid var(--bor)}
+.dr{display:flex;justify-content:space-between;padding:.48rem 0;border-bottom:1px solid rgba(42,42,58,.45);font-size:.83rem}
+.dr:last-child{border-bottom:none}
+.dk{color:var(--mut)}.dv{color:var(--txt);font-weight:500;text-align:right;max-width:60%}
+.dbox{margin-top:.7rem;padding:.88rem .95rem;background:var(--bg);border-radius:8px;border:1px solid var(--bor);font-size:.83rem;line-height:1.7;white-space:pre-wrap}
+.macts{display:flex;gap:.55rem;margin-top:1.2rem}
+.empty{text-align:center;padding:3rem 1rem;color:var(--mut)}
+.ei{font-size:2.2rem;margin-bottom:.6rem}
+.et{font-size:.86rem}
+.obanner{background:rgba(201,168,76,.07);border:1px solid rgba(201,168,76,.2);border-radius:10px;padding:.72rem 1rem;display:flex;align-items:center;gap:.7rem;font-size:.81rem;margin-bottom:1.4rem;color:var(--gold)}
+.toast{position:fixed;bottom:2rem;right:2rem;z-index:999;background:var(--sur);border:1px solid var(--bor);border-radius:10px;padding:.88rem 1.2rem;font-size:.84rem;box-shadow:0 8px 32px rgba(0,0,0,.5);transform:translateY(100px);opacity:0;transition:all .3s;pointer-events:none}
+.toast.on{transform:translateY(0);opacity:1}
+.toast.ok{border-left:3px solid #22c55e}
+.toast.er{border-left:3px solid #ef4444}
+.toast.inf{border-left:3px solid var(--gold)}
+.loge{background:var(--sur);border:1px solid var(--bor);border-left:3px solid var(--vc);border-radius:8px;padding:.82rem 1.05rem;margin-bottom:.58rem;display:flex;gap:.95rem;align-items:flex-start}
+.lt{font-size:.71rem;color:var(--mut);white-space:nowrap;font-family:monospace;margin-top:.1rem}
+.lm{font-size:.83rem}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-thumb{background:var(--bor);border-radius:3px}
+
+/* ══════════ RESPONSIVE / MOBILE ══════════ */
+.burger{display:none;background:none;border:1px solid var(--bor);color:var(--txt);
+  width:36px;height:36px;border-radius:8px;font-size:1.1rem;cursor:pointer;align-items:center;justify-content:center}
+.side-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:39}
+.side-overlay.on{display:block}
+
+@media (max-width: 880px){
+  .vbody{grid-template-columns:1fr}
+  .vside{position:fixed;top:0;left:0;height:100vh;width:78vw;max-width:300px;z-index:40;
+    transform:translateX(-100%);transition:transform .25s ease;top:64px;height:calc(100vh - 64px);
+    box-shadow:8px 0 30px rgba(0,0,0,.5)}
+  .vside.open{transform:translateX(0)}
+  .burger{display:flex}
+  .vmain{padding:1.1rem}
+}
+
+@media (max-width: 680px){
+  .h-title{font-size:2.1rem}
+  .h-sub{font-size:.74rem;letter-spacing:.16em;margin-bottom:2rem}
+  .kanji-big{font-size:3.6rem}
+  .vcards{gap:1rem}
+  .vcard{width:100%;max-width:300px;padding:1.6rem 1.4rem}
+  .home-wrap{padding:1.25rem}
+  .auth-card{padding:1.75rem 1.4rem}
+  .vhdr{padding:0 1rem}
+  .site-sm{display:none}
+  .uchip span:not(.odot){max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ph{flex-direction:column;align-items:flex-start}
+  .pt{font-size:1.2rem}
+  .sgrid{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .fcard{padding:1.4rem}
+  .frow{grid-template-columns:1fr}
+  .tcard{grid-template-columns:8px 1fr;row-gap:.5rem}
+  .tcard .sbdg{grid-column:2;justify-self:start}
+  .tcard .tacts{grid-column:1/-1}
+  .mtbl{font-size:.78rem;display:block;overflow-x:auto;white-space:nowrap}
+  .vtabs{overflow-x:auto;flex-wrap:nowrap;padding-bottom:.3rem}
+  .modal{padding:1.4rem;width:94%}
+  .toast{left:1rem;right:1rem;bottom:1rem}
+  .bsm{padding:.3rem .6rem;font-size:.72rem}
+  .uchip{padding:.28rem .6rem;font-size:.75rem}
+}
+
+@media (max-width: 420px){
+  .sgrid{grid-template-columns:1fr 1fr}
+  .vcard{padding:1.4rem 1.1rem}
+  .h-title{font-size:1.8rem}
+}
+</style>
+</head>
+<body>
+
+<!-- HOME -->
+<div class="scr on" id="s-home">
+  <div class="particles" id="ptcl"></div>
+  <div class="home-wrap">
+    <span class="kanji-big">忍</span>
+    <div class="h-title">Shinobi <span>no</span> Sekai</div>
+    <div class="h-sub">Serveur RP Naruto — Système de tickets</div>
+    <div class="h-cta">Choisissez votre village pour commencer</div>
+    <div class="vcards">
+      <div class="vcard ko" data-v="konoha">
+        <span class="vs">🍃</span>
+        <div class="vn">Konoha</div>
+        <div class="vd">Le Village Caché dans les Feuilles, berceau de la Volonté du Feu. Fondé par Hashirama Senju, il abrite les shinobi les plus légendaires.</div>
+        <span class="ve">Entrer →</span>
+      </div>
+      <div class="vcard am" data-v="ame">
+        <span class="vs">🌧️</span>
+        <div class="vn">Ame</div>
+        <div class="vd">Le Village Caché de la Pluie, perpétuellement enveloppé de brumes. Terre de douleur et de renaissance, berceau de l'Akatsuki.</div>
+        <span class="ve">Entrer →</span>
+      </div>
+      <div class="vcard ki" data-v="kiri">
+        <span class="vs">💧</span>
+        <div class="vn">Kiri</div>
+        <div class="vd">Le Village Caché dans le Brouillard, redouté pour ses shinobi impitoyables. Patrie des Sept Épéistes de la Brume.</div>
+        <span class="ve">Entrer →</span>
+      </div>
+    </div>
+    <button class="h-login" id="btn-login">Se connecter / S'inscrire</button>
+  </div>
+</div>
+
+<!-- AUTH -->
+<div class="scr" id="s-auth">
+  <button class="a-back" id="btn-back">← Retour</button>
+  <div class="auth-card">
+    <div class="auth-k">忍</div>
+    <div class="auth-t">Shinobi no Sekai</div>
+    <div class="auth-s" id="auth-sub">Connectez-vous pour accéder à votre village</div>
+    <button class="disc-btn" id="btn-discord">🎮 Connexion via Discord</button>
+    <div class="divider">ou compte / inscription</div>
+    <div id="form-login">
+      <div class="dfields">
+        <input class="ainput" id="in-pseudo" placeholder="Pseudo" />
+        <input class="ainput" id="in-pass" type="password" placeholder="Mot de passe" />
+      </div>
+      <button class="asub" id="btn-dologin">Se connecter</button>
+      <div class="atog">Pas encore inscrit ? <a id="to-reg">Créer un compte</a></div>
+    </div>
+    <div id="form-reg" style="display:none">
+      <div class="dfields">
+        <input class="ainput" id="reg-pseudo" placeholder="Pseudo" />
+        <input class="ainput" id="reg-pass" type="password" placeholder="Mot de passe" />
+        <select class="asel" id="reg-village">
+          <option value="">— Choisir votre village —</option>
+          <option value="konoha">🍃 Konoha</option>
+          <option value="ame">🌧️ Ame</option>
+          <option value="kiri">💧 Kiri</option>
+        </select>
+      </div>
+      <button class="asub" id="btn-doreg">Créer le compte</button>
+      <div class="atog">Déjà inscrit ? <a id="to-login">Se connecter</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- VILLAGE -->
+<div class="scr" id="s-vil">
+  <div class="vhdr">
+    <div class="vhl">
+      <button class="burger" id="btn-burger">☰</button>
+      <div class="vbadge"><span id="hd-em">🍃</span><span id="hd-vn" style="color:var(--vc)">Konoha</span></div>
+      <span class="vsep">|</span>
+      <span class="site-sm">Shinobi no Sekai</span>
+    </div>
+    <div class="vhr">
+      <div class="uchip">
+        <div class="odot"></div>
+        <span id="hd-user">—</span>
+        <span id="hd-role" class="rbdg rb-p"></span>
+      </div>
+      <button class="bsm" id="btn-villages">← Villages</button>
+      <button class="bsm" id="btn-logout">Déconnexion</button>
+    </div>
+  </div>
+  <div class="vbody">
+    <div class="side-overlay" id="side-overlay"></div>
+    <nav class="vside" id="vside">
+      <div class="vsym" id="side-sym">🍃</div>
+      <span class="vnsec">Mon espace</span>
+      <button class="vni on" data-tab="dashboard"><span class="ico">🏠</span>Tableau de bord</button>
+      <button class="vni" data-tab="my-tickets"><span class="ico">📋</span>Mes tickets<span class="nbdg" id="nb-m">0</span></button>
+      <button class="vni" data-tab="missions"><span class="ico">🎯</span>Missions<span class="nbdg" id="nb-mis">0</span></button>
+      <span class="vnsec">Créer un ticket</span>
+      <button class="vni" data-tab="t-personnage"><span class="ico">📜</span>Création personnage</button>
+      <button class="vni" data-tab="t-suivi"><span class="ico">📝</span>Suivi RP</button>
+      <button class="vni" data-tab="t-changement"><span class="ico">🔄</span>Changement RP</button>
+      <button class="vni" data-tab="t-staff"><span class="ico">⭐</span>Candidature Staff</button>
+      <button class="vni" data-tab="t-signalement"><span class="ico">🚨</span>Signalement</button>
+      <button class="vni" data-tab="t-autre"><span class="ico">📁</span>Autre</button>
+      <span class="vnsec admin-el" style="display:none">Administration</span>
+      <button class="vni admin-el" data-tab="admin-tickets" style="display:none"><span class="ico">🗂️</span>Tous les tickets<span class="nbdg" id="nb-a">0</span></button>
+      <button class="vni admin-el" data-tab="admin-members" style="display:none"><span class="ico">👥</span>Membres</button>
+      <button class="vni admin-el" data-tab="logs" style="display:none"><span class="ico">📜</span>Journaux</button>
+    </nav>
+    <div class="vmain" id="vmain"></div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="mbg" id="modal-bg">
+  <div class="modal">
+    <div class="mhdr">
+      <div class="mttl" id="m-ttl">Ticket</div>
+      <button class="xcls" id="m-cls">✕</button>
+    </div>
+    <div id="m-body"></div>
+    <div class="macts" id="m-acts"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+var VCFG = {
+  konoha: {name:'Konoha', emoji:'🍃', color:'#e63946', c2:'#9b1d26', bg:'rgba(230,57,70,.08)', bd:'rgba(230,57,70,.3)', cls:'ko'},
+  ame:    {name:'Ame',    emoji:'🌧️', color:'#7b2fbe', c2:'#4a1a75', bg:'rgba(123,47,190,.08)',bd:'rgba(123,47,190,.3)',cls:'am'},
+  kiri:   {name:'Kiri',  emoji:'💧', color:'#0077b6', c2:'#023e8a', bg:'rgba(0,119,182,.08)', bd:'rgba(0,119,182,.3)', cls:'ki'},
+};
+
+var ST = {village:null, user:null, tab:'dashboard', admFilter:'all'};
+var pendingV = null, formD = {}, nextTid = 1, nextAid = 2, nextMid = 1;
+
+var accounts = [
+  {id:1,pseudo:'Owner', pass:'SNSnrp-16/06-24•••', village:'konoha', role:'owner', perso:'—', join:'2025-01-01', online:false, ryos:0, kageOf:null},
+];
+
+var tickets = [
+];
+
+var logs = [
+];
+
+var missions = [
+];
+
+var KAGE_TITLES = { konoha:'Hokage', ame:'Amekage', kiri:'Mizukage' };
+var RANK_ORDER = ['D','C','B','A','S'];
+
+// ── SAUVEGARDE SERVEUR PARTAGÉE (Netlify Function + Netlify Blobs)
+var DATA_URL = '/.netlify/functions/data';
+
+async function saveData(){
+  try{
+    var res = await fetch(DATA_URL, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        accounts:accounts, tickets:tickets, logs:logs, missions:missions,
+        nextTid:nextTid, nextAid:nextAid, nextMid:nextMid
+      })
+    });
+    if(!res.ok) throw new Error('save failed: '+res.status);
+  }catch(e){
+    console.error('Erreur sauvegarde:', e);
+    toast('Sauvegarde impossible — vérifie ta connexion.','er');
+  }
+}
+
+async function loadData(){
+  try{
+    var res = await fetch(DATA_URL);
+    if(!res.ok) throw new Error('load failed: '+res.status);
+    var d = await res.json();
+    if(!d) return;
+    if(d.accounts) accounts = d.accounts;
+    if(d.tickets) tickets = d.tickets;
+    if(d.logs) logs = d.logs;
+    if(d.missions) missions = d.missions;
+    if(d.nextTid) nextTid = d.nextTid;
+    if(d.nextAid) nextAid = d.nextAid;
+    if(d.nextMid) nextMid = d.nextMid;
+  }catch(e){
+    console.error('Erreur chargement:', e);
+    toast('Impossible de charger les données du serveur.','er');
+  }
+}
+var dataReady = loadData();
+
+// ── DISCORD OAUTH RETURN HANDLER
+// When Discord redirects back here, the Netlify function adds these params to the URL.
+// The role (owner/admin/player) is computed server-side from real Discord server roles,
+// via the bot token — never decided in the browser.
+
+(async function(){
+  await dataReady;
+  var p = new URLSearchParams(window.location.search);
+  var discordId = p.get('discord_id');
+  var discordUsername = p.get('discord_username');
+  var discordError = p.get('discord_error');
+  var siteRole = p.get('site_role') || 'player';
+  var kageVillage = p.get('kage_village') || '';
+
+  if(discordError){
+    toast('Connexion Discord échouée. Réessaie ou utilise le mode démo.','er');
+    window.history.replaceState({}, document.title, window.location.pathname);
+    return;
+  }
+
+  if(discordId && discordUsername){
+    // Find an existing account linked to this Discord ID, or create one
+    var acc = accounts.find(function(a){ return a.discordId === discordId; });
+    if(acc && acc.banned){
+      toast('Ce compte a été banni du serveur.','er');
+      window.history.replaceState({}, document.title, window.location.pathname);
+      return;
+    }
+    var needsVillage = (siteRole==='owner'||siteRole==='admin'||kageVillage);
+    var defaultVillage = kageVillage || (needsVillage ? 'konoha' : null);
+    if(!acc){
+      acc = {
+        id: nextAid++,
+        pseudo: discordUsername,
+        pass: null,
+        village: defaultVillage,
+        role: siteRole,
+        perso: '—',
+        join: new Date().toISOString().slice(0,10),
+        online: true,
+        discordId: discordId,
+        ryos: 0,
+        kageOf: kageVillage || null
+      };
+      accounts.push(acc);
+    } else {
+      acc.online = true;
+      // Always re-sync the role and kage title with what Discord currently says, in case roles changed
+      acc.role = siteRole;
+      acc.kageOf = kageVillage || null;
+      if(!acc.village && defaultVillage){ acc.village=defaultVillage; }
+      if(kageVillage && acc.village!==kageVillage){ acc.village=kageVillage; }
+    }
+    ST.user = acc;
+    saveData();
+    // Clean the URL so the params don't stay visible
+    window.history.replaceState({}, document.title, window.location.pathname);
+
+    if(!acc.village){
+      // No village chosen yet — let them pick one, then enterVil will run after selectVillage
+      toast('Connecté avec Discord ! Choisis ton village.','ok');
+    } else {
+      window.addEventListener('load', function(){ enterVil(acc.village); });
+    }
+  }
+})();
+
+// ── PARTICLES
+(function(){
+  var p=document.getElementById('ptcl');
+  var cols=['#e63946','#7b2fbe','#0077b6','#c9a84c'];
+  for(var i=0;i<16;i++){
+    var d=document.createElement('div');
+    var s=Math.random()*6+3;
+    d.className='par';
+    d.style.width=s+'px'; d.style.height=s+'px';
+    d.style.left=Math.random()*100+'%';
+    d.style.background=cols[Math.floor(Math.random()*4)];
+    d.style.animationDuration=(Math.random()*18+10)+'s';
+    d.style.animationDelay=(Math.random()*14)+'s';
+    p.appendChild(d);
+  }
+})();
+
+// ── THEME
+function theme(v){
+  var c=VCFG[v], s=document.documentElement.style;
+  s.setProperty('--vc',c.color); s.setProperty('--vc2',c.c2);
+  s.setProperty('--vbg',c.bg);   s.setProperty('--vbd',c.bd);
+}
+
+// ── SCREENS
+function goScreen(n){
+  document.querySelectorAll('.scr').forEach(function(s){s.classList.remove('on');});
+  document.getElementById('s-'+n).classList.add('on');
+}
+
+// ── VILLAGE SELECT
+document.querySelectorAll('.vcard').forEach(function(c){
+  c.addEventListener('click', function(){
+    var v=this.dataset.v;
+    theme(v); ST.village=v; pendingV=v;
+    if(ST.user) enterVil(v); else goScreen('auth');
+  });
+});
+
+document.getElementById('btn-login').addEventListener('click',function(){ goScreen('auth'); });
+document.getElementById('btn-back').addEventListener('click',function(){ goScreen('home'); });
+document.getElementById('btn-villages').addEventListener('click',function(){ goScreen('home'); });
+document.getElementById('btn-burger').addEventListener('click', function(){
+  document.getElementById('vside').classList.add('open');
+  document.getElementById('side-overlay').classList.add('on');
+});
+document.getElementById('side-overlay').addEventListener('click', closeSide);
+function closeSide(){
+  document.getElementById('vside').classList.remove('open');
+  document.getElementById('side-overlay').classList.remove('on');
+}
+document.getElementById('btn-logout').addEventListener('click',function(){
+  if(ST.user){ ST.user.online=false; }
+  ST.user=null; ST.village=null; pendingV=null; goScreen('home');
+});
+document.getElementById('m-cls').addEventListener('click', closeModal);
+document.getElementById('modal-bg').addEventListener('click',function(e){ if(e.target===this) closeModal(); });
+
+// ── AUTH
+document.getElementById('to-reg').addEventListener('click',function(){
+  document.getElementById('form-login').style.display='none';
+  document.getElementById('form-reg').style.display='';
+  document.getElementById('auth-sub').textContent='Créez votre compte Shinobi';
+});
+document.getElementById('to-login').addEventListener('click',function(){
+  document.getElementById('form-reg').style.display='none';
+  document.getElementById('form-login').style.display='';
+  document.getElementById('auth-sub').textContent='Connectez-vous pour accéder à votre village';
+});
+document.getElementById('btn-discord').addEventListener('click',function(){
+  var clientId = '1516718965425176717';
+  var redirectUri = encodeURIComponent(window.location.origin + '/.netlify/functions/discord-callback');
+  var scope = encodeURIComponent('identify');
+  var url = 'https://discord.com/api/oauth2/authorize?client_id='+clientId+'&redirect_uri='+redirectUri+'&response_type=code&scope='+scope;
+  window.location.href = url;
+});
+document.getElementById('btn-dologin').addEventListener('click',async function(){
+  await dataReady;
+  var p=document.getElementById('in-pseudo').value.trim();
+  var pw=document.getElementById('in-pass').value.trim();
+  var acc=accounts.find(function(a){return a.pseudo===p&&a.pass===pw;});
+  if(!acc){toast('Pseudo ou mot de passe incorrect.','er');return;}
+  if(acc.banned){toast('Ce compte a été banni du serveur.','er');return;}
+  acc.online=true;
+  ST.user=acc; enterVil(pendingV||acc.village);
+  toast('Bienvenue, '+acc.pseudo+' !','ok');
+});
+document.getElementById('btn-doreg').addEventListener('click',async function(){
+  await dataReady;
+  var p=document.getElementById('reg-pseudo').value.trim();
+  var pw=document.getElementById('reg-pass').value.trim();
+  var v=document.getElementById('reg-village').value;
+  if(!p||!pw||!v){toast('Remplis tous les champs.','er');return;}
+  if(accounts.find(function(a){return a.pseudo===p;})){toast('Pseudo déjà pris.','er');return;}
+  var acc={id:nextAid++,pseudo:p,pass:pw,village:v,role:'player',perso:'—',join:new Date().toISOString().slice(0,10),online:true,ryos:0,kageOf:null};
+  accounts.push(acc); ST.user=acc; saveData();
+  enterVil(pendingV||v);
+  toast('Compte créé ! Bienvenue '+p,'ok');
+});
+
+// ── ENTER VILLAGE
+function enterVil(v){
+  if(!v) v=ST.village||ST.user.village;
+  theme(v); ST.village=v;
+  var c=VCFG[v];
+  document.getElementById('hd-em').textContent=c.emoji;
+  document.getElementById('hd-vn').textContent=c.name;
+  document.getElementById('hd-user').textContent=ST.user.pseudo;
+  document.getElementById('side-sym').textContent=c.emoji;
+  var rl={owner:'👑 Proprio',admin:'Admin',player:'Joueur'}[ST.user.role]||'Joueur';
+  document.getElementById('hd-role').textContent=rl;
+  document.getElementById('hd-role').className='rbdg '+(ST.user.role==='player'?'rb-p':'rb-a');
+  var ia=isAdm();
+  document.querySelectorAll('.admin-el').forEach(function(el){el.style.display=ia?'':'none';});
+  goScreen('vil');
+  showTab('dashboard');
+}
+
+function isAdm(){ return ST.user && (ST.user.role==='admin'||ST.user.role==='owner'); }
+function isKageOfVillage(v){ return ST.user && ST.user.kageOf===v; }
+function canManageMissions(){ return isAdm() || isKageOfVillage(ST.village); }
+
+// ── NAV
+document.querySelectorAll('.vni').forEach(function(btn){
+  btn.addEventListener('click',function(){ showTab(this.dataset.tab); });
+});
+
+function showTab(n){
+  ST.tab=n;
+  document.querySelectorAll('.vni').forEach(function(b){
+    b.classList.toggle('on', b.dataset.tab===n);
+  });
+  updBadges();
+  closeSide();
+  var m=document.getElementById('vmain');
+  if(n==='dashboard')      m.innerHTML=rDash();
+  else if(n==='my-tickets') m.innerHTML=rMine();
+  else if(n==='missions')   { m.innerHTML=rMissions(); bindMissionCreate(); }
+  else if(n==='admin-tickets') m.innerHTML=rAdmT();
+  else if(n==='admin-members') m.innerHTML=rMembers();
+  else if(n==='logs')       m.innerHTML=rLogs();
+  else if(n.indexOf('t-')===0) { m.innerHTML=rStep1(n); bindStep1(); }
+}
+
+function updBadges(){
+  document.getElementById('nb-m').textContent=tickets.filter(function(t){return t.auth===ST.user.id;}).length;
+  document.getElementById('nb-a').textContent=tickets.filter(function(t){return t.st==='pending';}).length;
+  document.getElementById('nb-mis').textContent=missions.filter(function(ms){return ms.vil===ST.village&&ms.status==='open';}).length;
+}
+
+// ── RENDER HELPERS
+function cap(s){return s?s.charAt(0).toUpperCase()+s.slice(1):'';}
+function empt(msg){return '<div class="empty"><div class="ei">📭</div><div class="et">'+msg+'</div></div>';}
+function vc(v){return VCFG[v]||{color:'#ccc',emoji:'',name:v||''};}
+function stcls(s){return {pending:'sp',accepted:'sa',refused:'sr'}[s]||'sp';}
+function stlbl(s){return {pending:'En attente',accepted:'Accepté',refused:'Refusé'}[s]||s;}
+function now(){return new Date().toISOString().slice(0,16).replace('T',' ');}
+
+// ── DASHBOARD
+function rDash(){
+  var vis=isAdm()?tickets:tickets.filter(function(t){return t.auth===ST.user.id;});
+  var ob=ST.user.role==='owner'?'<div class="obanner">👑 Vous êtes propriétaire — gérez les rôles dans <strong>Membres</strong>.</div>':'';
+  var rec=[].concat(vis).reverse().slice(0,5);
+  return '<div class="ph"><div><div class="pt">Tableau de bord</div><div class="ps">'+vc(ST.village).emoji+' '+vc(ST.village).name+' — '+ST.user.pseudo+'</div></div>'
+    +'<button class="b-pri" onclick="showTab(\'t-personnage\')">+ Nouveau ticket</button></div>'
+    +ob
+    +'<div class="sgrid">'
+    +'<div class="scard"><div class="snum">'+vis.length+'</div><div class="slbl">Total</div></div>'
+    +'<div class="scard" style="--sa:#eab308"><div class="snum">'+vis.filter(function(t){return t.st==='pending';}).length+'</div><div class="slbl">En attente</div></div>'
+    +'<div class="scard" style="--sa:#22c55e"><div class="snum">'+vis.filter(function(t){return t.st==='accepted';}).length+'</div><div class="slbl">Acceptés</div></div>'
+    +'<div class="scard" style="--sa:#ef4444"><div class="snum">'+vis.filter(function(t){return t.st==='refused';}).length+'</div><div class="slbl">Refusés</div></div>'
+    +'</div>'
+    +'<div class="ph" style="margin-bottom:1rem"><div class="pt" style="font-size:1.05rem">Tickets récents</div></div>'
+    +'<div class="tlist" id="tl-dash">'+(rec.length?rec.map(rCard).join(''):empt('Aucun ticket.'))+'</div>';
+}
+
+// ── MY TICKETS
+function rMine(){
+  var mine=[].concat(tickets.filter(function(t){return t.auth===ST.user.id;})).reverse();
+  return '<div class="ph"><div><div class="pt">Mes tickets</div><div class="ps">Suivi de vos demandes</div></div></div>'
+    +'<div class="tlist" id="tl-mine">'+(mine.length?mine.map(rCard).join(''):empt("Vous n'avez aucun ticket."))+'</div>';
+}
+
+// ── MISSIONS
+var RANK_COLORS = { D:'#9ca3af', C:'#22c55e', B:'#3b82f6', A:'#a855f7', S:'#ef4444' };
+
+function missionCard(ms){
+  var col = RANK_COLORS[ms.rank] || '#999';
+  var author = accounts.find(function(a){return a.id===ms.createdBy;});
+  var taker = ms.takenBy ? accounts.find(function(a){return a.id===ms.takenBy;}) : null;
+  var statusLbl = {open:'Disponible', taken:'En cours', done:'Terminée'}[ms.status];
+  var statusCls = {open:'sp', taken:'sa', done:'sa'}[ms.status];
+
+  var actionBtn = '';
+  if(ms.status==='open' && !canManageMissions()){
+    actionBtn = '<button class="btn b-acc" data-msaccept="'+ms.id+'">✓ Accepter la mission</button>';
+  } else if(ms.status==='taken' && canManageMissions()){
+    actionBtn = '<button class="btn b-acc" data-msvalidate="'+ms.id+'">✓ Valider — verser '+ms.reward+' Ryos</button>';
+  } else if(ms.status==='taken' && ms.takenBy===ST.user.id){
+    actionBtn = '<span style="font-size:.78rem;color:var(--mut)">En attente de validation par le '+KAGE_TITLES[ms.vil]+'...</span>';
+  }
+
+  var delBtn = canManageMissions() && ms.status!=='done'
+    ? ' <button class="tbtn tbd" data-msdelete="'+ms.id+'">✕ Annuler</button>' : '';
+
+  return '<div class="tcard" style="grid-template-columns:10px 1fr auto auto">'
+    +'<div class="tdot" style="background:'+col+'"></div>'
+    +'<div><div class="ttl2">['+ms.rank+'] '+ms.title+'</div>'
+    +'<div class="tmet">'+ms.desc+'</div>'
+    +'<div class="tmet">💰 '+ms.reward+' Ryos · Créée par '+(author?author.pseudo:'?')+(taker?' · Prise par '+taker.pseudo:'')+'</div></div>'
+    +'<span class="sbdg '+statusCls+'">'+statusLbl+'</span>'
+    +'<div class="tacts">'+actionBtn+delBtn+'</div>'
+    +'</div>';
+}
+
+function rMissions(){
+  var vil = ST.village;
+  var vMissions = [].concat(missions.filter(function(ms){return ms.vil===vil;})).reverse();
+  var kageTitle = KAGE_TITLES[vil];
+  var canManage = canManageMissions();
+
+  var myRyos = ST.user.ryos || 0;
+
+  var createForm = '';
+  if(canManage){
+    var rankOpts = RANK_ORDER.map(function(r){return '<option value="'+r+'">Rang '+r+'</option>';}).join('');
+    createForm = '<div class="fcard" style="margin-bottom:1.5rem">'
+      +'<div class="ftit">🎯 Créer une mission</div>'
+      +'<div class="fsub">En tant que '+(isKageOfVillage(vil)?kageTitle:(ST.user.role==='owner'?'Propriétaire':'Admin'))+'</div>'
+      +'<div class="fg"><label class="fl">Titre de la mission</label><input class="fi" id="ms-title" placeholder="Ex: Escorter un marchand" /></div>'
+      +'<div class="fg"><label class="fl">Description</label><textarea class="fta" id="ms-desc" placeholder="Détails de la mission..." style="min-height:80px"></textarea></div>'
+      +'<div class="frow"><div class="fg"><label class="fl">Rang</label><select class="fs" id="ms-rank">'+rankOpts+'</select></div>'
+      +'<div class="fg"><label class="fl">Récompense (Ryos)</label><input class="fi" id="ms-reward" type="number" placeholder="Ex: 500" min="0" /></div></div>'
+      +'<button class="b-pri" id="btn-ms-create">Publier la mission</button>'
+      +'</div>';
+  }
+
+  var list = vMissions.length ? vMissions.map(missionCard).join('') : empt('Aucune mission pour le moment dans ce village.');
+
+  return '<div class="ph"><div><div class="pt">Missions — '+cap(vil)+'</div>'
+    +'<div class="ps">'+kageTitle+' et administration peuvent publier des missions · Votre solde : 💰 '+myRyos+' Ryos</div></div></div>'
+    +createForm
+    +'<div class="tlist" id="tl-missions">'+list+'</div>';
+}
+
+function bindMissionCreate(){
+  var btn=document.getElementById('btn-ms-create');
+  if(btn) btn.addEventListener('click', function(){
+    var title=document.getElementById('ms-title').value.trim();
+    var desc=document.getElementById('ms-desc').value.trim();
+    var rank=document.getElementById('ms-rank').value;
+    var reward=parseInt(document.getElementById('ms-reward').value,10);
+    if(!title||!desc||!rank||!reward||reward<0){ toast('Remplis tous les champs correctement.','er'); return; }
+    missions.push({
+      id: nextMid++, vil: ST.village, title: title, desc: desc, rank: rank, reward: reward,
+      status: 'open', createdBy: ST.user.id, takenBy: null, date: now()
+    });
+    logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a publié une mission rang '+rank+' : <strong>'+title+'</strong> ('+cap(ST.village)+')'});
+    saveData();
+    toast('Mission publiée !','ok');
+    document.getElementById('vmain').innerHTML=rMissions();
+    bindMissionCreate();
+  });
+}
+
+function acceptMission(mid){
+  var ms=missions.find(function(m){return m.id===mid;});
+  if(!ms||ms.status!=='open') return;
+  ms.status='taken';
+  ms.takenBy=ST.user.id;
+  saveData();
+  toast('Mission acceptée ! Bonne chance.','ok');
+  document.getElementById('vmain').innerHTML=rMissions();
+  bindMissionCreate();
+}
+
+function validateMission(mid){
+  var ms=missions.find(function(m){return m.id===mid;});
+  if(!ms||ms.status!=='taken') return;
+  var taker=accounts.find(function(a){return a.id===ms.takenBy;});
+  if(!taker) return;
+  taker.ryos=(taker.ryos||0)+ms.reward;
+  ms.status='done';
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a validé la mission <strong>'+ms.title+'</strong> — '+ms.reward+' Ryos versés à <strong>'+taker.pseudo+'</strong>'});
+  saveData();
+  toast('Mission validée ! '+ms.reward+' Ryos versés à '+taker.pseudo+'.','ok');
+  document.getElementById('vmain').innerHTML=rMissions();
+  bindMissionCreate();
+}
+
+function deleteMission(mid){
+  missions = missions.filter(function(m){return m.id!==mid;});
+  saveData();
+  toast('Mission annulée.','ok');
+  document.getElementById('vmain').innerHTML=rMissions();
+  bindMissionCreate();
+}
+
+// ── ADMIN TICKETS
+function rAdmT(){
+  var vf=ST.admFilter;
+  var filt=vf==='all'?tickets:tickets.filter(function(t){return t.vil===vf;});
+  var tabs=['all','konoha','ame','kiri'].map(function(v){
+    var lbl=v==='all'?'Tous':vc(v).emoji+' '+vc(v).name;
+    var cls='vtab'+(vf===v?' a-'+(v==='all'?'all':VCFG[v].cls):'');
+    return '<button class="'+cls+'" onclick="setVF(\''+v+'\')">'+lbl+'</button>';
+  }).join('');
+  var rev=[].concat(filt).reverse();
+  return '<div class="ph"><div><div class="pt">Gestion des tickets</div><div class="ps">Tous les tickets du serveur</div></div></div>'
+    +'<div class="vtabs">'+tabs+'</div>'
+    +'<div class="tlist" id="tl-adm">'+(rev.length?rev.map(function(t){return rCard(t,true);}).join(''):empt('Aucun ticket.'))+'</div>';
+}
+
+function setVF(v){ ST.admFilter=v; document.getElementById('vmain').innerHTML=rAdmT(); bindCards(); }
+
+// ── MEMBERS
+function rMembers(){
+  var io=ST.user.role==='owner';
+  var onlineCount=accounts.filter(function(a){return a.online;}).length;
+  var rows=accounts.map(function(a){
+    var vt=a.village?'<span class="vtg vt-'+VCFG[a.village].cls+'">'+vc(a.village).emoji+' '+cap(a.village)+'</span>':'—';
+    var rb=a.role==='owner'?'<span class="rbdg rb-a">👑 Proprio</span>':a.role==='admin'?'<span class="rbdg rb-a">Admin</span>':'<span class="rbdg rb-p">Joueur</span>';
+    if(a.banned) rb+=' <span class="rbdg" style="background:rgba(239,68,68,.15);color:#ef4444">🚫 Banni</span>';
+    var st=a.online?'<span class="ostat ost-on"><span class="odot2"></span>En ligne</span>':'<span class="ostat ost-off">Hors ligne</span>';
+    var kageTag = a.kageOf ? '<span class="vtg" style="background:rgba(201,168,76,.15);color:var(--gold)">👑 '+KAGE_TITLES[a.kageOf]+'</span>' : '—';
+    var acts='';
+    if(io){
+      acts='<button class="tbtn tbp" data-edit="'+a.id+'">✎ Modifier</button>';
+      if(a.id!==ST.user.id){
+        if(a.role==='player'){ acts+=' <button class="tbtn tbp" data-uid="'+a.id+'" data-nr="admin">↑ Admin</button>'; }
+        else if(a.role==='admin'){ acts+=' <button class="tbtn tbd" data-uid="'+a.id+'" data-nr="player">↓ Rétrograder</button>'; }
+        if(a.kageOf){
+          acts+=' <button class="tbtn tbd" data-setkage="'+a.id+'" data-kvil="none">✕ Retirer '+KAGE_TITLES[a.kageOf]+'</button>';
+        } else if(a.village){
+          acts+=' <button class="tbtn tbp" data-setkage="'+a.id+'" data-kvil="'+a.village+'">👑 Nommer '+KAGE_TITLES[a.village]+'</button>';
+        }
+        acts+= a.banned
+          ? ' <button class="tbtn tbp" data-unban="'+a.id+'">✓ Débannir</button>'
+          : ' <button class="tbtn tbd" data-ban="'+a.id+'">🚫 Bannir</button>';
+        acts+=' <button class="tbtn tbd" data-exclude="'+a.id+'">🗑 Exclure</button>';
+      }
+    }
+    var actsCell = io ? ('<td>'+acts+'</td>') : '';
+    return '<tr><td><strong>'+a.pseudo+'</strong></td><td>'+st+'</td><td>'+vt+'</td><td>'+(a.perso||'—')+'</td><td>'+rb+'</td><td>'+kageTag+'</td><td>💰'+(a.ryos||0)+'</td><td>'+a.join+'</td>'+actsCell+'</tr>';
+  }).join('');
+  var headActs = io ? '<th>Actions</th>' : '';
+  return '<div class="ph"><div><div class="pt">Membres</div><div class="ps">Tous les comptes inscrits — '+onlineCount+' en ligne actuellement</div></div></div>'
+    +'<table class="mtbl"><thead><tr><th>Pseudo</th><th>Statut</th><th>Village</th><th>Personnage</th><th>Rôle</th><th>Kage</th><th>Ryos</th><th>Inscription</th>'+headActs+'</tr></thead><tbody>'+rows+'</tbody></table>';
+}
+
+function setKage(uid, village){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  if(village){
+    // Remove kage status from anyone else currently holding this village's title
+    accounts.forEach(function(other){
+      if(other.kageOf===village && other.id!==uid){ other.kageOf=null; }
+    });
+    a.kageOf=village;
+    logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a nommé <strong>'+a.pseudo+'</strong> '+KAGE_TITLES[village]+' de '+cap(village)});
+    saveData();
+    toast(a.pseudo+' est maintenant '+KAGE_TITLES[village]+' !','ok');
+  } else {
+    var oldTitle = a.kageOf ? KAGE_TITLES[a.kageOf] : '';
+    a.kageOf=null;
+    logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a retiré le titre de '+oldTitle+' à <strong>'+a.pseudo+'</strong>'});
+    saveData();
+    toast('Titre retiré.','ok');
+  }
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+// ── EDIT MEMBER MODAL
+function editMember(uid){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  document.getElementById('m-ttl').textContent='Modifier le compte — '+a.pseudo;
+  var villageOpts=['konoha','ame','kiri'].map(function(v){
+    return '<option value="'+v+'"'+(a.village===v?' selected':'')+'>'+vc(v).emoji+' '+cap(v)+'</option>';
+  }).join('');
+  var roleOpts=['player','admin','owner'].map(function(r){
+    var lbl={player:'Joueur',admin:'Admin',owner:'Propriétaire'}[r];
+    return '<option value="'+r+'"'+(a.role===r?' selected':'')+'>'+lbl+'</option>';
+  }).join('');
+  document.getElementById('m-body').innerHTML=
+    '<div class="fg"><label class="fl">Pseudo</label><input class="fi" id="em-pseudo" value="'+a.pseudo+'" /></div>'
+    +'<div class="fg"><label class="fl">Personnage RP</label><input class="fi" id="em-perso" value="'+(a.perso==='—'?'':a.perso)+'" placeholder="Nom du personnage" /></div>'
+    +'<div class="frow"><div class="fg"><label class="fl">Village</label><select class="fs" id="em-village">'+villageOpts+'</select></div>'
+    +'<div class="fg"><label class="fl">Rôle</label><select class="fs" id="em-role">'+roleOpts+'</select></div></div>';
+  document.getElementById('m-acts').innerHTML=
+    '<button class="btn b-acc" id="em-save">✓ Enregistrer</button>'
+    +'<button class="btn b-view" id="em-cancel">Annuler</button>';
+  document.getElementById('em-save').addEventListener('click', function(){ saveMember(uid); });
+  document.getElementById('em-cancel').addEventListener('click', closeModal);
+  document.getElementById('modal-bg').classList.add('on');
+}
+
+function saveMember(uid){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  var newPseudo=document.getElementById('em-pseudo').value.trim();
+  var newPerso=document.getElementById('em-perso').value.trim();
+  var newVillage=document.getElementById('em-village').value;
+  var newRole=document.getElementById('em-role').value;
+  if(!newPseudo){toast('Le pseudo ne peut pas être vide.','er');return;}
+  var dup=accounts.find(function(x){return x.pseudo===newPseudo&&x.id!==uid;});
+  if(dup){toast('Ce pseudo est déjà pris.','er');return;}
+  var oldPseudo=a.pseudo;
+  a.pseudo=newPseudo;
+  a.perso=newPerso||'—';
+  a.village=newVillage;
+  a.role=newRole;
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a modifié le compte <strong>'+oldPseudo+'</strong>'+(oldPseudo!==newPseudo?' (renommé en <strong>'+newPseudo+'</strong>)':'')});
+  saveData();
+  toast('Compte mis à jour avec succès !','ok');
+  closeModal();
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+
+// ── LOGS
+function rLogs(){
+  var entries=[].concat(logs).reverse().map(function(l){
+    return '<div class="loge"><div class="lt">'+l.time+'</div><div class="lm">'+l.msg+'</div></div>';
+  }).join('');
+  return '<div class="ph"><div><div class="pt">Journaux</div><div class="ps">Historique des actions admin</div></div></div>'+(entries||empt('Aucun log.'));
+}
+
+// ── TICKET CARD
+function rCard(t, adminMode){
+  var col=vc(t.vil).color;
+  var aa=adminMode===true&&t.st==='pending';
+  return '<div class="tcard" data-tid="'+t.id+'">'
+    +'<div class="tdot" style="background:'+col+'"></div>'
+    +'<div><div class="ttl2">'+t.subj+'</div>'
+    +'<div class="tmet">#'+t.id+' · '+vc(t.vil).emoji+' '+cap(t.vil)+' · '+(accounts.find(function(a){return a.id===t.auth;})||{pseudo:'?'}).pseudo+' · '+t.cat+' · '+t.date+'</div></div>'
+    +'<span class="sbdg '+stcls(t.st)+'">'+stlbl(t.st)+'</span>'
+    +'<div class="tacts">'
+    +(aa?'<button class="btn b-acc" data-act="accept" data-tid="'+t.id+'">✓</button><button class="btn b-ref" data-act="refuse" data-tid="'+t.id+'">✕</button>':'')
+    +'<button class="btn b-view" data-act="view" data-tid="'+t.id+'">👁</button>'
+    +(adminMode===true?'<button class="btn b-ref" data-act="delete" data-tid="'+t.id+'">🗑</button>':'')
+    +'</div></div>';
+}
+
+// ── BIND CARDS (event delegation on vmain)
+document.getElementById('vmain').addEventListener('click', function(e){
+  // mission action buttons (check first, these stop propagation themselves)
+  var msAccept=e.target.closest('[data-msaccept]');
+  var msValidate=e.target.closest('[data-msvalidate]');
+  var msDelete=e.target.closest('[data-msdelete]');
+  if(msAccept){ e.stopPropagation(); acceptMission(parseInt(msAccept.dataset.msaccept)); return; }
+  if(msValidate){ e.stopPropagation(); validateMission(parseInt(msValidate.dataset.msvalidate)); return; }
+  if(msDelete){ e.stopPropagation(); deleteMission(parseInt(msDelete.dataset.msdelete)); return; }
+
+  var btn=e.target.closest('[data-act]');
+  var card=e.target.closest('.tcard');
+  var isMissionCard = card && card.querySelector('[data-msaccept],[data-msvalidate],[data-msdelete]') !== null;
+  if(btn){
+    e.stopPropagation();
+    var tid=parseInt(btn.dataset.tid);
+    if(btn.dataset.act==='accept') admAct(tid,'accepted');
+    else if(btn.dataset.act==='refuse') admAct(tid,'refused');
+    else if(btn.dataset.act==='view') viewT(tid);
+    else if(btn.dataset.act==='delete') deleteTicket(tid);
+  } else if(card && !isMissionCard && card.dataset.tid){
+    viewT(parseInt(card.dataset.tid));
+  }
+  // role buttons
+  var tbtn=e.target.closest('[data-uid]');
+  if(tbtn){ setRole(parseInt(tbtn.dataset.uid), tbtn.dataset.nr); }
+  // edit member button
+  var ebtn=e.target.closest('[data-edit]');
+  if(ebtn){ editMember(parseInt(ebtn.dataset.edit)); }
+  // kage assignment button
+  var kbtn=e.target.closest('[data-setkage]');
+  if(kbtn){ setKage(parseInt(kbtn.dataset.setkage), kbtn.dataset.kvil==='none'?null:kbtn.dataset.kvil); }
+  // ban / unban / exclude buttons
+  var banBtn=e.target.closest('[data-ban]');
+  if(banBtn){ banAccount(parseInt(banBtn.dataset.ban)); }
+  var unbanBtn=e.target.closest('[data-unban]');
+  if(unbanBtn){ unbanAccount(parseInt(unbanBtn.dataset.unban)); }
+  var excludeBtn=e.target.closest('[data-exclude]');
+  if(excludeBtn){ excludeAccount(parseInt(excludeBtn.dataset.exclude)); }
+});
+
+function bindStep1(){
+  var s1=document.getElementById('btn-step1-next');
+  var s1c=document.getElementById('btn-step1-cancel');
+  if(s1) s1.addEventListener('click', goStep2);
+  if(s1c) s1c.addEventListener('click', function(){ showTab('dashboard'); });
+}
+function bindStep2(){
+  var back=document.getElementById('btn-step2-back');
+  var send=document.getElementById('btn-step2-send');
+  if(back) back.addEventListener('click', function(){ document.getElementById('vmain').innerHTML=rStep1(formD.tab); bindStep1(); });
+  if(send) send.addEventListener('click', function(){ submitT(); });
+}
+
+// ── ADMIN ACTION
+function admAct(id, action){
+  var t=tickets.find(function(x){return x.id===id;});
+  if(!t) return;
+  var reason='';
+  if(action==='refused') reason=prompt('Motif du refus (optionnel) :')||'';
+  t.st=action; t.adm=ST.user.id;
+  if(reason) t.reason=reason;
+  var author=(accounts.find(function(a){return a.id===t.auth;})||{pseudo:'?'}).pseudo;
+  var lbl=action==='accepted'?'<span style="color:#22c55e">accepté</span>':'<span style="color:#ef4444">refusé</span>';
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a '+lbl+' le ticket <strong>#'+id+'</strong> de <strong>'+author+'</strong>'+(reason?' — Motif : <em>'+reason+'</em>':'')});
+  updBadges();
+  saveData();
+  toast('Ticket '+(action==='accepted'?'accepté':'refusé')+' !', action==='accepted'?'ok':'er');
+  showTab(ST.tab);
+}
+
+function banAccount(uid){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  if(a.id===ST.user.id){ toast('Tu ne peux pas te bannir toi-même.','er'); return; }
+  if(!confirm('Bannir '+a.pseudo+' ? Le compte ne pourra plus se reconnecter.')) return;
+  a.banned=true; a.online=false;
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a <span style="color:#ef4444">banni</span> <strong>'+a.pseudo+'</strong>'});
+  saveData();
+  toast(a.pseudo+' a été banni.','er');
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+function unbanAccount(uid){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  a.banned=false;
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a <span style="color:#22c55e">débanni</span> <strong>'+a.pseudo+'</strong>'});
+  saveData();
+  toast(a.pseudo+' a été débanni.','ok');
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+function excludeAccount(uid){
+  var a=accounts.find(function(x){return x.id===uid;});
+  if(!a) return;
+  if(a.id===ST.user.id){ toast('Tu ne peux pas t\'exclure toi-même.','er'); return; }
+  if(!confirm('Exclure définitivement '+a.pseudo+' ? Le compte et son historique seront supprimés (irréversible).')) return;
+  accounts = accounts.filter(function(x){return x.id!==uid;});
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a <span style="color:#ef4444">exclu définitivement</span> <strong>'+a.pseudo+'</strong>'});
+  saveData();
+  toast(a.pseudo+' a été exclu.','er');
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+function deleteTicket(id){
+  if(!confirm('Supprimer définitivement le ticket #'+id+' ?')) return;
+  tickets = tickets.filter(function(t){return t.id!==id;});
+  updBadges(); saveData();
+  toast('Ticket supprimé.','er');
+  showTab(ST.tab);
+}
+
+function setRole(uid, nr){
+  var acc=accounts.find(function(a){return a.id===uid;});
+  if(!acc) return;
+  acc.role=nr;
+  logs.push({time:now(), msg:'<strong>'+ST.user.pseudo+'</strong> a '+(nr==='admin'?'<span style="color:#22c55e">promu</span>':'<span style="color:#ef4444">rétrogradé</span>')+' <strong>'+acc.pseudo+'</strong>'});
+  saveData();
+  toast(acc.pseudo+' → '+nr,'ok');
+  document.getElementById('vmain').innerHTML=rMembers();
+}
+
+// ── VIEW MODAL
+function viewT(id){
+  var t=tickets.find(function(x){return x.id===id;});
+  if(!t) return;
+  var auth=(accounts.find(function(a){return a.id===t.auth;})||{pseudo:'?'}).pseudo;
+  var adm=t.adm?(accounts.find(function(a){return a.id===t.adm;})||{pseudo:'?'}).pseudo:null;
+  document.getElementById('m-ttl').textContent='Ticket #'+t.id+' — '+t.subj;
+  var b='<div class="msec">📋 Informations générales</div>'
+    +'<div class="dr"><span class="dk">Auteur</span><span class="dv">'+auth+'</span></div>'
+    +'<div class="dr"><span class="dk">Village</span><span class="dv" style="color:'+vc(t.vil).color+'">'+vc(t.vil).emoji+' '+cap(t.vil)+'</span></div>'
+    +'<div class="dr"><span class="dk">Catégorie</span><span class="dv">'+t.cat+'</span></div>'
+    +'<div class="dr"><span class="dk">Date</span><span class="dv">'+t.date+'</span></div>'
+    +'<div class="dr"><span class="dk">Statut</span><span class="dv"><span class="sbdg '+stcls(t.st)+'">'+stlbl(t.st)+'</span></span></div>'
+    +(adm?'<div class="dr"><span class="dk">Traité par</span><span class="dv">'+adm+'</span></div>':'')
+    +(t.reason?'<div class="dr"><span class="dk">Motif refus</span><span class="dv" style="color:#ef4444">'+t.reason+'</span></div>':'')
+    +(t.desc?'<div class="dbox">'+t.desc+'</div>':'');
+  if(t.rp){var r=t.rp;
+    b+='<div class="msec">⚔️ Fiche personnage</div>'
+    +'<div class="dr"><span class="dk">Nom</span><span class="dv">'+r.nom+'</span></div>'
+    +'<div class="dr"><span class="dk">Âge</span><span class="dv">'+r.age+' ans</span></div>'
+    +(r.clan?'<div class="dr"><span class="dk">Clan</span><span class="dv">'+r.clan+'</span></div>':'')
+    +'<div class="dr"><span class="dk">Rang</span><span class="dv">'+r.rang+'</span></div>'
+    +(r.chakra?'<div class="dr"><span class="dk">Chakra</span><span class="dv">'+r.chakra+'</span></div>':'')
+    +(r.kkg?'<div class="dr"><span class="dk">Kekkei Genkai</span><span class="dv">'+r.kkg+'</span></div>':'')
+    +'<div class="msec">📖 Background</div><div class="dbox">'+r.bg+'</div>'
+    +'<div class="msec">🧠 Personnalité</div><div class="dbox">'+r.perso+'</div>'
+    +(r.obj?'<div class="msec">🎯 Objectifs</div><div class="dbox">'+r.obj+'</div>':'');
+  }
+  if(t.suivi) b+='<div class="msec">📝 Suivi</div><div class="dr"><span class="dk">Titre</span><span class="dv">'+t.suivi.title+'</span></div><div class="dbox">'+t.suivi.content+'</div>';
+  if(t.changement){var c=t.changement;
+    b+='<div class="msec">🔄 Changement RP</div>'
+    +'<div class="dr"><span class="dk">Personnage actuel</span><span class="dv">'+c.actuel+'</span></div>'
+    +'<div class="dr"><span class="dk">Type</span><span class="dv">'+c.type+'</span></div>'
+    +'<div class="dbox">'+c.desc+'</div>'
+    +(c.just?'<div class="msec">Justification</div><div class="dbox">'+c.just+'</div>':'');
+  }
+  if(t.staff){var s=t.staff;
+    b+='<div class="msec">⭐ Candidature Staff</div>'
+    +'<div class="dr"><span class="dk">Poste</span><span class="dv">'+s.poste+'</span></div>'
+    +(s.dispo?'<div class="dr"><span class="dk">Dispo</span><span class="dv">'+s.dispo+'</span></div>':'')
+    +'<div class="msec">Expérience</div><div class="dbox">'+s.exp+'</div>'
+    +'<div class="msec">Motivation</div><div class="dbox">'+s.mot+'</div>';
+  }
+  if(t.signalement){var sg=t.signalement;
+    b+='<div class="msec">🚨 Signalement</div>'
+    +'<div class="dr"><span class="dk">Type</span><span class="dv">'+sg.type+'</span></div>'
+    +(sg.joueur?'<div class="dr"><span class="dk">Joueur</span><span class="dv">'+sg.joueur+'</span></div>':'')
+    +(sg.preuves?'<div class="dr"><span class="dk">Preuves</span><span class="dv">'+sg.preuves+'</span></div>':'')
+    +'<div class="msec">Faits</div><div class="dbox">'+sg.faits+'</div>';
+  }
+  document.getElementById('m-body').innerHTML=b;
+  var acts=document.getElementById('m-acts');
+  if(isAdm()&&t.st==='pending'){
+    acts.innerHTML='<button class="btn b-acc" id="m-acc">✓ Accepter</button><button class="btn b-ref" id="m-ref">✕ Refuser</button>';
+    document.getElementById('m-acc').addEventListener('click',function(){admAct(id,'accepted');closeModal();});
+    document.getElementById('m-ref').addEventListener('click',function(){admAct(id,'refused');closeModal();});
+  } else { acts.innerHTML=''; }
+  document.getElementById('modal-bg').classList.add('on');
+}
+
+function closeModal(){ document.getElementById('modal-bg').classList.remove('on'); }
+
+// ── FORMS
+var CATS = {
+  't-personnage': {label:'Création personnage',   icon:'📜', type:'rp'},
+  't-suivi':      {label:'Suivi RP',              icon:'📝', type:'suivi'},
+  't-changement': {label:'Changement RP',         icon:'🔄', type:'changement'},
+  't-staff':      {label:'Candidature Staff',     icon:'⭐', type:'staff'},
+  't-signalement':{label:'Signalement / Support', icon:'🚨', type:'signalement'},
+  't-autre':      {label:'Autre',                 icon:'📁', type:'suivi'},
+};
+
+function rStep1(tab){
+  var c=CATS[tab]; formD={tab:tab};
+  return '<div class="ph"><div><div class="pt">'+c.icon+' '+c.label+'</div><div class="ps">Étape 1 sur 2</div></div></div>'
+    +'<div class="fcard"><div class="ftit">'+c.icon+' '+c.label+'</div><div class="fsub">Étape 1 sur 2 — Informations générales</div>'
+    +'<div class="stpr"><div class="stp on"><div class="stpn">1</div><span>Informations</span></div><div class="stpline"></div><div class="stp"><div class="stpn">2</div><span>Détails</span></div></div>'
+    +'<div class="fg"><label class="fl">Objet du ticket</label><input class="fi" id="f-subj" placeholder="Résumé de votre demande" /></div>'
+    +'<div class="fg"><label class="fl">Description <span class="op">(optionnel)</span></label><textarea class="fta" id="f-desc" placeholder="Informations complémentaires..."></textarea></div>'
+    +'<div class="facts"><button class="b-pri" id="btn-step1-next">Continuer →</button><button class="b-sec" id="btn-step1-cancel">Annuler</button></div>'
+    +'</div>';
+}
+
+function goStep2(){
+  var subj=(document.getElementById('f-subj')||{}).value; subj=subj?subj.trim():'';
+  var desc=(document.getElementById('f-desc')||{}).value; desc=desc?desc.trim():'';
+  if(!subj){toast("L'objet du ticket est requis.",'er');return;}
+  formD.subj=subj; formD.desc=desc;
+  document.getElementById('vmain').innerHTML=rStep2();
+  bindStep2();
+}
+
+function rStep2(){
+  var tab=formD.tab, c=CATS[tab], fields='';
+  if(c.type==='rp'){
+    fields='<div class="fsec">⚔️ Identité</div>'
+      +'<div class="frow"><div class="fg"><label class="fl">Nom du personnage</label><input class="fi" id="rp-nom" placeholder="Ex: Naruto Uzumaki" /></div>'
+      +'<div class="fg"><label class="fl">Âge</label><input class="fi" id="rp-age" type="number" placeholder="17" /></div></div>'
+      +'<div class="frow"><div class="fg"><label class="fl">Clan <span class="op">(opt.)</span></label><input class="fi" id="rp-clan" placeholder="Ex: Uzumaki" /></div>'
+      +'<div class="fg"><label class="fl">Rang</label><select class="fs" id="rp-rang"><option value="">— Sélectionner —</option><option>Académicien</option><option>Genin</option><option>Chūnin</option><option>Tokubetsu Jōnin</option><option>Jōnin</option><option>ANBU</option><option>Sans rang</option></select></div></div>'
+      +'<div class="frow"><div class="fg"><label class="fl">Chakra <span class="op">(opt.)</span></label><input class="fi" id="rp-chakra" placeholder="Ex: Vent, Feu" /></div>'
+      +'<div class="fg"><label class="fl">Kekkei Genkai <span class="op">(opt.)</span></label><input class="fi" id="rp-kkg" placeholder="Ex: Sharingan" /></div></div>'
+      +'<div class="fsec">📖 Background</div>'
+      +'<div class="fg"><label class="fl">Histoire du personnage</label><textarea class="fta" id="rp-bg" placeholder="Passé, origines..."></textarea></div>'
+      +'<div class="fg"><label class="fl">Personnalité</label><textarea class="fta" id="rp-perso" placeholder="Caractère, traits..."></textarea></div>'
+      +'<div class="fg"><label class="fl">Objectifs <span class="op">(opt.)</span></label><textarea class="fta" id="rp-obj" placeholder="Ambitions, buts..."></textarea></div>';
+  } else if(c.type==='suivi'){
+    fields='<div class="fsec">📝 Contenu</div>'
+      +'<div class="fg"><label class="fl">Titre</label><input class="fi" id="sv-title" placeholder="Ex: Évolution après l\'arc Akatsuki" /></div>'
+      +'<div class="fg"><label class="fl">Contenu</label><textarea class="fta" id="sv-content" placeholder="Décrivez le suivi..." style="min-height:150px"></textarea></div>';
+  } else if(c.type==='changement'){
+    fields='<div class="fsec">🔄 Détails</div>'
+      +'<div class="fg"><label class="fl">Personnage actuel</label><input class="fi" id="ch-act" placeholder="Nom actuel" /></div>'
+      +'<div class="fg"><label class="fl">Type de changement</label><select class="fs" id="ch-type"><option value="">— Sélectionner —</option><option>Changement de village</option><option>Changement de personnage</option><option>Changement de rang</option><option>Changement de clan</option><option>Autre</option></select></div>'
+      +'<div class="fg"><label class="fl">Description</label><textarea class="fta" id="ch-desc" placeholder="Expliquez le changement..."></textarea></div>'
+      +'<div class="fg"><label class="fl">Justification RP</label><textarea class="fta" id="ch-just" placeholder="Pourquoi ce changement est justifié ?"></textarea></div>';
+  } else if(c.type==='staff'){
+    fields='<div class="fsec">⭐ Candidature</div>'
+      +'<div class="fg"><label class="fl">Poste souhaité</label><input class="fi" id="st-poste" placeholder="Ex: Modérateur" /></div>'
+      +'<div class="fg"><label class="fl">Expérience staff</label><textarea class="fta" id="st-exp" placeholder="Vos expériences..."></textarea></div>'
+      +'<div class="fg"><label class="fl">Motivation</label><textarea class="fta" id="st-mot" placeholder="Pourquoi rejoindre le staff ?"></textarea></div>'
+      +'<div class="fg"><label class="fl">Disponibilités <span class="op">(opt.)</span></label><input class="fi" id="st-dispo" placeholder="Ex: Soirs et week-ends" /></div>';
+  } else if(c.type==='signalement'){
+    fields='<div class="fsec">🚨 Signalement</div>'
+      +'<div class="fg"><label class="fl">Type</label><select class="fs" id="sg-type"><option value="">— Sélectionner —</option><option>Comportement toxique</option><option>Triche / abus</option><option>Hors-sujet RP</option><option>Bug technique</option><option>Autre</option></select></div>'
+      +'<div class="fg"><label class="fl">Joueur concerné <span class="op">(opt.)</span></label><input class="fi" id="sg-joueur" placeholder="Pseudo du joueur" /></div>'
+      +'<div class="fg"><label class="fl">Description des faits</label><textarea class="fta" id="sg-faits" placeholder="Que s\'est-il passé ?" style="min-height:120px"></textarea></div>'
+      +'<div class="fg"><label class="fl">Preuves <span class="op">(opt.)</span></label><input class="fi" id="sg-prev" placeholder="https://..." /></div>';
+  }
+  return '<div class="ph"><div><div class="pt">'+c.icon+' '+c.label+'</div><div class="ps">Étape 2 sur 2</div></div></div>'
+    +'<div class="fcard"><div class="ftit">'+c.icon+' '+c.label+'</div><div class="fsub">Étape 2 sur 2 — Détails</div>'
+    +'<div class="stpr"><div class="stp dn"><div class="stpn">✓</div><span>Informations</span></div><div class="stpline"></div><div class="stp on"><div class="stpn">2</div><span>Détails</span></div></div>'
+    +fields
+    +'<div class="facts"><button class="b-sec" id="btn-step2-back">← Retour</button><button class="b-pri" id="btn-step2-send">Envoyer ✓</button></div>'
+    +'</div>';
+}
+
+function submitT(){
+  var c=CATS[formD.tab];
+  var tk={id:nextTid++,auth:ST.user.id,vil:ST.village,cat:c.label,subj:formD.subj,desc:formD.desc,st:'pending',date:now(),adm:null};
+  function g(id){var el=document.getElementById(id); return el?el.value.trim():'';}
+  if(c.type==='rp'){
+    var nom=g('rp-nom'),age=g('rp-age'),rang=g('rp-rang'),bg=g('rp-bg'),perso=g('rp-perso');
+    if(!nom||!age||!rang||!bg||!perso){toast('Remplis les champs obligatoires.','er');return;}
+    tk.rp={nom:nom,age:age,clan:g('rp-clan'),rang:rang,chakra:g('rp-chakra'),kkg:g('rp-kkg'),bg:bg,perso:perso,obj:g('rp-obj')};
+    ST.user.perso=nom; accounts.find(function(a){return a.id===ST.user.id;}).perso=nom;
+  } else if(c.type==='suivi'){
+    var t=g('sv-title'),ct=g('sv-content');
+    if(!t||!ct){toast('Titre et contenu requis.','er');return;}
+    tk.suivi={title:t,content:ct};
+  } else if(c.type==='changement'){
+    var act=g('ch-act'),tp=g('ch-type'),desc=g('ch-desc');
+    if(!act||!tp||!desc){toast('Remplis les champs obligatoires.','er');return;}
+    tk.changement={actuel:act,type:tp,desc:desc,just:g('ch-just')};
+  } else if(c.type==='staff'){
+    var po=g('st-poste'),ex=g('st-exp'),mo=g('st-mot');
+    if(!po||!ex||!mo){toast('Remplis les champs obligatoires.','er');return;}
+    tk.staff={poste:po,exp:ex,mot:mo,dispo:g('st-dispo')};
+  } else if(c.type==='signalement'){
+    var sgt=g('sg-type'),fa=g('sg-faits');
+    if(!sgt||!fa){toast('Type et description requis.','er');return;}
+    tk.signalement={type:sgt,joueur:g('sg-joueur'),faits:fa,preuves:g('sg-prev')};
+  }
+  tickets.push(tk); updBadges(); saveData();
+  toast('Ticket envoyé avec succès !','ok');
+  showTab('my-tickets');
+}
+
+// ── TOAST
+function toast(msg, type){
+  var el=document.getElementById('toast');
+  el.textContent=msg; el.className='toast '+type+' on';
+  setTimeout(function(){el.className='toast '+type;},3200);
+}
+</script>
+</body>
+</html>
